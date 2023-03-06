@@ -1,0 +1,19 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "Duncan's personal portfolio and website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duncan-io/personal-portfolio.git"
+  },
+  "author": "duncan-io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duncan-io/personal-portfolio/issues"
+  },
+  "homepage": "https://github.com/duncan-io/personal-portfolio#readme"
+}

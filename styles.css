@@ -1,0 +1,32 @@
+
+/* Global declarations */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav Styling */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 3rem;
+    background-color: white;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.navLinks ul{
+    display: flex;
+    gap: 2rem;
+}
+
+.navLinks li{
+    list-style: none;
+    
+}
+
