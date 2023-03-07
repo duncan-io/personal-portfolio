@@ -1,22 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <script src="index.js" defer></script>
     <title>Duncan McKee Web Dev</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-        <h1> <a href="index.html">Duncan McKee</a></h1>
-        <div class="navLinks">
-            <ul>
-                <li> <a href="about.html">About me</a> </li>
-                <li> <a href="projects.html">Projects</a> </li>
-            </ul>
-        </div>
+      <p class="logo"><a href="index.html">Duncan McKee</a></p>
+      <div class="navLinks">
+        <ul>
+          <li><a href="about.html" class="navItem">About me</a></li>
+          <li><a href="projects.html" class="navItem">Projects</a></li>
+        </ul>
+      </div>
     </nav>
-</body>
+
+    <div class="hero">
+      <div class="title">
+        <h1>Hello, I'm <span class="heading">Duncan</span></h1>
+        <h2>SEO turned Web Developer</h2>
+      </div>
+    </div>
+
+    <main class="homePageBody">
+      <div class="aboutMeHome">
+        <div class="info">
+          <h2 class="heading">About me (quick version)</h2>
+          <p>
+            I started out in SEO and loved it but wanted badly to expand my
+            technical ability and prowess. I left SEO to pursue web development
+            and look forward to bringing a unique view to your team as I marry
+            these two skill sets!
+          </p>
+          <a href="about.html"><button class="btn">See the longer version</button></a>
+        </div>
+        <div class="whatIKnow">
+            <h2 class="heading">Tech I know</h2>
+            <h3>Web Dev Tech & Tools</h3>
+            <div class="tech">
+                <div class="techCard">
+                    <img src="./images/js.webp" alt="Javascript Logo" class="techLogo">
+                    <p>Javascript</p>
+                </div>
+                <div class="techCard">
+                    <img src="./images/html.png" alt="HTML Logo" class="techLogo">
+                    <p>HTML</p>
+                </div>
+                <div class="techCard">
+                    <img src="./images/css.png" alt="CSS Logo" class="techLogo">
+                    <p>CSS</p>
+                </div>
+                <div class="techCard">
+                    <img src="./images/react.png" alt="React Logo" class="techLogo">
+                    <p>React</p>
+                </div>
+                <div class="techCard">
+                    <img src="./images/webpack.png" alt="Webpack Logo" class="techLogo">
+                    <p>WebPack</p>
+                </div>
+                <div class="techCard">
+                    <img src="./images/git.png" alt="Git Logo" class="techLogo">
+                    <p>Git</p>
+                </div>
+                <div class="techCard">
+                    <img src="./images/jest.png" alt="Jest Logo" class="techLogo">
+                    <p>Jest</p>
+                </div>
+                <div class="techCard">
+                    <img src="./images/sass.png" alt="Sass Logo" class="techLogo">
+                    <p>Sass</p>
+                </div>
+                <div class="techCard">
+                    <img src="./images/tailwind.png" alt="Tailwind Logo" class="techLogo">
+                    <p>Tailwind</p>
+                </div>
+                <div class="techCard">
+                    <img src="./images/wordpress.png" alt="Wordpress Logo" class="techLogo">
+                    <p>Wordpress</p>
+                </div>
+            </div>
+            <h3>SEO Tech & Tools</h3>
+            <div class="tech">
+                <div class="techCard">
+                    <img src="./images/analytics.png" alt="Google Analytics Logo" class="techLogo">
+                    <p>Google Analytics</p>
+                </div>
+                <div class="techCard">
+                    <img src="./images/searchConsole.png" alt="Search Console Logo" class="techLogo">
+                    <p>Search Console</p>
+                </div>
+                <div class="techCard">
+                    <img src="./images/tagmanager.png" alt="Tag Manager Logo" class="techLogo">
+                    <p>Tag Manager</p>
+                </div>
+                <div class="techCard">
+                    <img src="./images/ahrefs.png" alt="Ahrefs Logo" class="ahrefsLogo">
+                    <p>Ahrefs</p>
+                </div>
+                
+                <div class="techCard">
+                    <img src="./images/semrush.png" alt="SEMrush Logo" class="techLogo">
+                    <p>SEMrush</p>
+                </div>
+                <div class="techCard">
+                    <img src="./images/screamingfrog.jpg" alt="Screaming Frog Logo" class="techLogo">
+                    <p>Screaming Frog</p>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="workedOn">
+        <h2 class="heading">What I have worked on</h2>
+        <p>
+          Below are a few projects that I am most proud of (updated 3 / 2023)
+        </p>
+        <div class="works">
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+        </div>
+        <a href="projects.html"
+          ><button class="btn">See All Projects</button></a
+        >
+      </div>
+    </main>
+  </body>
 </html>
