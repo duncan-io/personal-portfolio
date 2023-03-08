@@ -146,6 +146,7 @@ nav a {
 .works{
     display: flex;
     justify-content: space-around;
+    padding: 2rem;
 }
 
 .card{
@@ -208,4 +209,27 @@ nav a {
 
 .personalLife{
     margin-top: 2rem;
+}
+
+/* Projects Styling  */
+
+.projectsMain{
+    padding: 2rem 5rem;
+}
+
+.featuredProjects{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+
+.featuredProjCard{
+    margin: 2rem 0;
+    display: flex;
+    gap: 2rem;
+}
+
+.explanation p {
+    margin: 2rem 0;
+
 }
