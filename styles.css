@@ -142,3 +142,28 @@ nav a {
     align-self: center;
     justify-self: center;
 }
+
+.works{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    border: #C9D1D5 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 1rem;
+    max-width: 400px;
+}
+
+.projectScrnShot{
+    max-width: 300px;
+}
+
+.projButtons{
+    display: flex;
+    gap: 20px;
+}
