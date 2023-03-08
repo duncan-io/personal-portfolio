@@ -167,3 +167,45 @@ nav a {
     display: flex;
     gap: 20px;
 }
+
+/* About Me Page  */
+.aboutMeMain{
+    padding: 5rem;
+}
+
+.aboutMeBodyTop{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.aboutMeBody{
+    line-height: 2rem;
+}
+
+.aboutMeBody p{
+    font-size: 1.15rem;
+    margin-top: 2rem;
+}
+
+.keyLink{
+    min-width: 50px;
+    max-width: 75px;
+    fill: #C9D1D5;
+}
+
+.keyLink:hover{
+    fill: #55C2C3;
+}
+
+.linkContainer{
+    min-width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.personalLife{
+    margin-top: 2rem;
+}
