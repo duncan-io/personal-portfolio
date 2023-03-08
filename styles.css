@@ -95,13 +95,19 @@ nav a {
 /* Home Page Styling */
 
 .hero{
-    height: 30vh;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: left;
     text-align: left;
     padding: 0 5rem;
+}
+
+.homeArrow{
+    fill: #C9D1D5;
+    
+    
 }
 
 .homePageBody{
@@ -133,7 +139,7 @@ nav a {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    /* border: #C9D1D5 1px solid; */
+   
     
 }
 
@@ -154,7 +160,7 @@ nav a {
 }
 
 .card{
-    border: #C9D1D5 1px solid;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
