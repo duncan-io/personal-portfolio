@@ -91,6 +91,31 @@ nav a {
     transform-origin:  0% 50%; 
 }
 
+/* Footer Styling */
+
+footer{
+    border-top: #C9D1D5 1px solid;
+    padding: 1rem 5rem;
+    text-align: center;
+    
+}
+
+.footerLinkWrapper{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+}
+
+.footerLink{
+    min-width: 40px;
+    max-width: 75px;
+    fill: #C9D1D5;
+}
+
+.footerLink:hover{
+    fill: #55C2C3;
+}
+
 
 /* Home Page Styling */
 
@@ -116,10 +141,16 @@ nav a {
     font-size: 1.15rem;
 }
 
+.aboutMeHome{
+    display: flex;
+    flex-direction: column;
+}
 
 .info{
     max-width: 50%;
     margin: 2rem 0;
+    align-self: center;
+    text-align: center;
 }
 
 .whatIKnow{
@@ -127,11 +158,21 @@ nav a {
     flex-direction: column;
     gap: 2rem;
     margin: 2rem 0;
+   width: 100%;
+}
+
+.top, .bottom{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 1rem;
 }
 
 .tech{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 .techCard{
@@ -139,6 +180,7 @@ nav a {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    min-width: 100px;
    
     
 }
