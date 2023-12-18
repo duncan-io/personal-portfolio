@@ -14,6 +14,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.white{
+    color: white;
+}
+
 .heading{
     color: #55C2C3;
     font-family: 'Space Mono', monospace;
@@ -265,6 +269,10 @@ footer{
 .aboutMeBody p{
     font-size: 1.15rem;
     margin-top: 2rem;
+}
+
+.aboutMeContent a{
+    color: white;
 }
 
 .linkWrapper{
